@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de local storage</title>
+    <title>Aplicação De Notas</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/mathjs@15.2.0/lib/browser/math.js"></script>
+    <link rel="shortcut icon" href="faviconparaomeusite.jfif" type="image/x-icon">
+    
 </head>
 <body>
      <div id="appnotas">
         <div id="camp">
             <div class="n">
-                <input type="text" name="titulo" id="ititulo" placeholder="Título">
+                <div><input type="text" name="titulo" id="ititulo" placeholder="Título">
+                <button onclick="criar()" id="add">+</button>
+            </div>
+                
                 <textarea id="itext" placeholder="Digite uma nota..."></textarea>
-                <button onclick="criar()">+</button>
+                    
+                
             </div>
             
         </div>

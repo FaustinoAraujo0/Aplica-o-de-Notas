@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 body {
-    background-color: ;
+    background-color: rgb(179, 177, 174);
 }
+
 textarea {
     min-height: 10px;
     resize: none;
@@ -21,14 +22,33 @@ h1 {
     
     border: none;
     resize: none;
-    min-height: 100px;
+    min-height: 50px;
     overflow-y: hidden;
     padding: 10px;
     font-weight: bolder;
     outline: none;
+    margin: 10px 10px;
+    width: 500px;
+    border-radius: 7px;
+}
+
+#add {
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    aspect-ratio: 1/1;
+    font-size: 20px;
+    width: 30px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s;
 }
 
 
+#add:hover {
+    background-color: rgba(54, 52, 52, 0.76);
+}
 
 #notas {
     
@@ -72,13 +92,14 @@ h1 {
 }
 
 .n {
-    display: flex;  
-    flex-direction: column;
     margin: auto;
     width: 600px;
-    border: 1px solid rgba(0, 0, 0, 0.678);
+    border: none;
     padding: 10px;
     margin-bottom: 20px;
+    background-color: rgb(135, 165, 245);
+    align-items: center;
+    border-radius: 5px;
 }
 
 
@@ -90,6 +111,9 @@ h1 {
     font-size: 20px;
     font-weight: bolder;
     outline: none;
+    margin: 0px 10px;
+    border-radius: 7px;
+    width: 500px;
 }
 
 .apagar {
@@ -98,6 +122,12 @@ h1 {
     background-color: black;
     border-radius: 50%;
     aspect-ratio: 1/1;
+
+    transition: background-color 0.3s;
+}
+
+.apagar:hover {
+    background-color: rgb(223, 70, 70);
 }
 
 .editar {
@@ -106,6 +136,12 @@ h1 {
     background-color: black;
     border-radius: 50%;
     aspect-ratio: 1/1;
+
+    transition: background-color 0.3s;
+}
+
+.editar:hover {
+    background-color: rgba(54, 52, 52, 0.76);
 }
 
 .enviar {
